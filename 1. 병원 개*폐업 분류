@@ -1,0 +1,9 @@
+
+## 1. 병원 개/폐업 분류
+
+기억하면 좋을 함수들
+* select_dtypes : 타입이 object / non object로 나누어서 구분 가능함. ex) data.select_dtypes(include = 'object') -> data의 object형 데이터들만 보여줌
+* .difference : 차집합 / 다른 부분들만 알 수 있음
+* fillna() : 결측 값을 특정 값으로 채울 수 있음
+
+- XGBOOST : Gradient Boost , CART 기반. 과적합 방지 기능 -> gradient boosting 방법 사용시 대신하여 사용하면 좋을 것 같음
