@@ -1,4 +1,11 @@
 #2. 대출 상점 총 매출 예측
 -병원 개/폐업 예측 문제보다 어렵게 느껴짐
 이해하는 데에 어려움이 있었다.
-시계열에 대한 추가 공부가 필요
+시계열에 대한 추가 공부가 필요함
+
+@새로 알게 된 함수들
+1. pandas의 to_datetime : 날짜로 되어 있는 데이터를 datetiem 형식으로 바꿔줌
+2. pandas의 .groupby().agg / groupby().mean() -> groupby()는 그룹객체를 만들어주는 함수. mean->평균값
+   groupby().agg() -> 여러개의 함수를 이러 열에 적용
+3. set_index()
+4. reset_index()       인덱스 셋팅과 초기화
