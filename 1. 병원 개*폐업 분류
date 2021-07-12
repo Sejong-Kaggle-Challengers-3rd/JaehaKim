@@ -1,5 +1,5 @@
 
-## 1. 병원 개/폐업 분류
+# 1. 병원 개/폐업 분류
 
 기억하면 좋을 함수들
 * select_dtypes : 타입이 object / non object로 나누어서 구분 가능함. ex) data.select_dtypes(include = 'object') -> data의 object형 데이터들만 보여줌
